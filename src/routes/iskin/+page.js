@@ -5,61 +5,83 @@
 // export const prerender = true;
 // export const load = ({ cookies }) => {
 // 	const game = new Game(cookies.get('sverdle'));
-const responses =[
-    'virus'={
-        'name' : 'Пролог7',
-        'level': '7','born': '2023-09-05 18:59:52',
-        'capacity': '1',
-        'speed': '25',
-        'tactics': '0',
-        'intelligence': '0',
-        'victories': '1134',
-        'loses': '506',
-        'avatar': '3'},
-    'plagin'=[{
-        'img': 'void',
-        'id': '1',
-        'current': '0',
-        'life_max': '0',
-        'name': 'Плагин'},{
-        'img': 'void',
-        'id': '1',
-        'current': '0',
-        'life_max': '0',
-        'name': 'Плагин'},{
-        'img': 'void',
-        'id': '1',
-        'current': '0',
-        'life_max': '0',
-        'name': 'Плагин'},{
-        'img': 'void',
-        'id': '1',
-        'current': '0',
-        'life_max': '0',
-        'name': 'Плагин'}],
-    'neyro'=[{'img': 'void',
-        'id': '1',
-        'life_current': '0',
-        'life_max': '0',
-        'name': 'Плагин'},{
-        'img': 'void',
-        'id': '1',
-        'life_current': '0',
-        'life_max': '0',
-        'name': 'Плагин'},{
-        'img': 'void',
-        'id': '1',
-        'life_current': '0',
-        'life_max': '0',
-        'name': 'Плагин'},{
-        'img': 'void',
-        'id': '1',
-        'life_current': '0',
-        'life_max': '0',
-        'name': 'Плагин'}],
-    'energy'={'max': '10',
-        'current': '5' }
-    ];
+export const _responses = 
+  {
+    virus: {
+      name: "Пролог7",
+      level: "7",
+      born: "2023-09-05 18:59:52",
+      capacity: "1",
+      speed: "25",
+      tactics: "0",
+      intelligence: "0",
+      victories: "1134",
+      loses: "506",
+      avatar: "3",
+    },
+    plagin: [
+      {
+        img: "void",
+        id: "1",
+        current: "0",
+        life_max: "0",
+        name: "Плагин",
+      },
+      {
+        img: "void",
+        id: "1",
+        current: "0",
+        life_max: "0",
+        name: "Плагин",
+      },
+      {
+        img: "void",
+        id: "1",
+        current: "0",
+        life_max: "0",
+        name: "Плагин",
+      },
+      {
+        img: "void",
+        id: "1",
+        current: "0",
+        life_max: "0",
+        name: "Плагин",
+      },
+    ],
+    neyro: [
+      {
+        img: "void",
+        id: "1",
+        life_current: "0",
+        life_max: "0",
+        name: "Плагин",
+      },
+      {
+        img: "void",
+        id: "1",
+        life_current: "0",
+        life_max: "0",
+        name: "Плагин",
+      },
+      {
+        img: "void",
+        id: "1",
+        life_current: "0",
+        life_max: "0",
+        name: "Плагин",
+      },
+      {
+        img: "void",
+        id: "1",
+        life_current: "0",
+        life_max: "0",
+        name: "Плагин",
+      },
+    ],
+    energy: { max: "10", current: "5" },
+  }
+;
 // 	return {
 // 		/**
 // 		 * The player's guessed words so far
