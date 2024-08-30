@@ -86,8 +86,8 @@
     height: 94px;
     padding: 0 60px 0px 60px;
     background: 
-      url('/src/lib/images/left_centr_ava.png') no-repeat left top,
-      url('/src/lib/images/right_centr_ava.png') no-repeat right top;
+      url('./../lib/images/left_centr_ava.gif') no-repeat left top,
+      url('./../lib/images/right_centr_ava.gif') no-repeat right top;
   }
   #avatars div {
     height: 100%;
