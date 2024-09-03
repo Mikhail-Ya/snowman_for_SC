@@ -1,10 +1,5 @@
 // import { dev } from "$app/environment";
 
-// we don't need any JS on this page, though we'll load
-// it in dev so that we get hot module replacement
-// export const csr = dev;
-
-// const query2 = "https://jsonplaceholder.typicode.com/posts";
 const getShipInfo = () => {
   return new Promise((resolve, reject) => {
     let data = {

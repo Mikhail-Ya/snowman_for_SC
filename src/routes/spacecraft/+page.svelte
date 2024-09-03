@@ -62,7 +62,7 @@
     </li>
   </ul>
   <div>
-    <img src={"src/lib/images/" + _info.craft_img + ".gif"} alt="" />
+    <img src={"src/lib/images/" + "spacecraft.png"} alt="" />
     <ul>
       <li id="mod_left">
         <img
@@ -166,9 +166,9 @@
     display: grid;
     grid-template-columns: 60px 140px 60px;
     grid-column-gap: 2vw;
-    background-color: #87ceeb30;
-    border-radius: 50%;
-    box-shadow: 0 0 100px -40px aqua;
+    background-color: #51829a50;
+    border-radius: 5px;
+    box-shadow: 0 0 10px -5px #51829a;
     align-items: center;
   }
   ul {
@@ -181,7 +181,10 @@
   li {
     position: relative;
     list-style: none;
-    /* margin: 5; */
+    border: solid 1px #87ceeb1f;
+    background-color: #87ceeb21;
+    padding: 2px;
+    border-radius: 5px;
   }
   li img {
     height: 100%;

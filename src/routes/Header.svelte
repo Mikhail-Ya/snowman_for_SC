@@ -50,7 +50,6 @@
     height: 174px;
     width: 468px;
     background: url("$lib/images/header_left.gif") no-repeat;
-    /* background-size: 100% 100%; */
     grid-column: 1;
   }
   .right {

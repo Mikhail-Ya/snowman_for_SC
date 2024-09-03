@@ -7,15 +7,19 @@
   <title>Снеговик_ : разное</title>
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
-<main class="counter"></main>
+<main class="counter">
+  
+</main>
 
 <style>
+  
+
   main {
     width: 400px;
     height: 400px;
     display: grid;
     grid-template-columns: 300px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     z-index: 11;
   }
 </style>
